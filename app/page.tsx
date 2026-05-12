@@ -1,4 +1,4 @@
-export default function MayureshComputersWebsite() {
+export default function Page() {
   const services = [
     "Computer & Laptop Sales",
     "Computer & Laptop Repair",
@@ -234,7 +234,7 @@ export default function MayureshComputersWebsite() {
               />
 
               <textarea
-                rows="5"
+                rows={5}
                 placeholder="Write your enquiry here..."
                 className="p-4 rounded-2xl border border-sky-200 md:col-span-2 focus:outline-none focus:ring-2 focus:ring-sky-400"
               ></textarea>
